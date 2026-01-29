@@ -1,0 +1,1 @@
+dataset:\n  name: ""\n  path: "data/raw"\n\nmodel:\n  name: ""\n  params: {}\n\ntraining:\n  epochs: 0\n  batch_size: 0\n  learning_rate: 0.0\n\nlogging:\n  level: "INFO"\n  log_dir: "logs"\n
