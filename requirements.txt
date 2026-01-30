@@ -1,1 +1,19 @@
-# Add project dependencies here\n
+--index-url https://pypi.org/simple
+--extra-index-url https://download.pytorch.org/whl/cu124
+
+torch==2.6.0+cu124
+torchvision==0.21.0+cu124
+torchaudio==2.6.0+cu124
+torchtext @ git+https://github.com/pytorch/text.git@v0.18.0
+torchdata @ git+https://github.com/pytorch/data.git@v0.7.1
+portalocker>=2.0.0
+pykan
+scikit-learn
+pandas
+numpy
+pyyaml
+matplotlib
+seaborn
+tqdm
+gensim
+wandb
