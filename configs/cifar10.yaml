@@ -1,0 +1,11 @@
+param_budget: 100000
+seed: 42
+model_type: both
+batch_size: 64
+epochs: 200
+early_stopping: 20
+kan_lr: 0.001
+mlp_lr: 0.01
+depth_range: "2,3,4"
+width_range: "64,96,128,160,192,224"
+grid_range: "3,5,8,10,15"
